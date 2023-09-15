@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas de Línea en HTML</title>
+    <style>
+        .color-blue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<h2><strong>Etiquetas de línea</strong></h2>
+
+<p>Explicación y ejemplos de etiquetas de línea: <strong>Strong</strong>, <em>Em</em>, <abbr title="Abreviatura">Abbr</abbr>, <span>Span</span>, <a href="#">A</a>, y elementos multimedia.</p>
+
+<p>Las etiquetas de línea, también conocidas como elementos en línea, son aquellas que no comienzan en una nueva línea y solo toman el espacio necesario. Estas etiquetas se utilizan principalmente para modificar o destacar partes específicas del contenido sin alterar la estructura general del documento.</p>
+
+<h3>1. Características generales:</h3>
+<ul>
+    <li><strong>No contienen elementos de bloque:</strong> Los elementos de línea no deben contener elementos de bloque dentro de ellos. Por ejemplo, no es correcto colocar un <code>&lt;div&gt;</code> (elemento de bloque) dentro de un <code>&lt;span&gt;</code> (elemento de línea).</li>
+    <li><strong>Contienen otros elementos de línea:</strong> Es válido anidar elementos en línea dentro de otros elementos en línea.</li>
+</ul>
+
+<h3>2. Elementos de línea comunes:</h3>
+<ul>
+    <li><strong>&lt;strong&gt;:</strong> Se utiliza para dar importancia a una parte del texto. Aunque visualmente puede parecer que el texto está en negrita, el propósito real de <code>&lt;strong&gt;</code> es semántico, es decir, indicar que ese texto tiene un peso o importancia especial.
+        <pre><code>&lt;p&gt;Es &lt;strong&gt;esencial&lt;/strong&gt; seguir las instrucciones.&lt;/p&gt;</code></pre>
+    </li>
+    <li><strong>&lt;em&gt;:</strong> Se utiliza para dar énfasis a una parte del texto. Al igual que con <code>&lt;strong&gt;</code>, aunque visualmente puede parecer cursiva, el propósito real es semántico.
+        <pre><code>&lt;p&gt;Esto es &lt;em&gt;realmente&lt;/em&gt; interesante.&lt;/p&gt;</code></pre>
+    </li>
+    <li><strong>&lt;abbr&gt;:</strong> Se utiliza para abreviaturas o acrónimos. El atributo <code>title</code> se utiliza para proporcionar la forma completa de la abreviatura.
+        <pre><code>&lt;p&gt;La &lt;abbr title="Organización Mundial de la Salud"&gt;OMS&lt;/abbr&gt; emitió un comunicado.&lt;/p&gt;</code></pre>
+    </li>
+    <li><strong>&lt;span&gt;:</strong> Es un contenedor genérico en línea que no tiene un significado semántico por sí mismo. Se utiliza principalmente con CSS o JavaScript para aplicar estilos o comportamientos específicos a partes del contenido.
+        <pre><code>&lt;p&gt;El cielo es &lt;span class="color-blue"&gt;azul&lt;/span&gt; durante el día.&lt;/p&gt;</code></pre>
+    </li>
+    <li><strong>&lt;a&gt;:</strong> Es la etiqueta para crear enlaces. Puede enlazar a otra página, a un correo electrónico, a un archivo, entre otros.
+        <pre><code>&lt;a href="https://www.ejemplo.com"&gt;Visita nuestro sitio&lt;/a&gt;</code></pre>
+    </li>
+    <li><strong>Elementos multimedia:</strong> Aunque es común pensar en ellos como elementos de bloque, elementos como <code>&lt;img&gt;</code>, <code>&lt;audio&gt;</code>, <code>&lt;video&gt;</code> e <code>&lt;iframe&gt;</code> son técnicamente elementos en línea. Sin embargo, a menudo se les da un comportamiento de bloque mediante CSS.</li>
+</ul>
+
+<h3>Conclusión:</h3>
+<p>Las etiquetas de línea en HTML son esenciales para dar formato y estructura al contenido de una página web. Aunque algunos de estos elementos pueden tener un efecto visual específico por defecto, es importante recordar que su propósito principal es semántico. Es decir, se utilizan para dar significado y estructura al contenido, no necesariamente para controlar su apariencia visual.</p>
+
+</body>
+</html>

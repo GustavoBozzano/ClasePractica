@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo de Estructura Semántica con Div y Span</title>
+  </head>
+  <body>
+    <div class="contenedor-principal">
+      <!-- Encabezado del documento o sección -->
+      <!-- logos, iconos, titulo principal, barra de nevgacion -->
+      <header>
+        <h1>Título del <span class="destacado">Sitio Web</span></h1>
+        <p>Introducción o descripción breve del sitio web.</p>
+        <!-- enlaces de navegación del sitio -->
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/img" target="_blank">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Contenido principal del documento -->
+      <main>
+        <h2>Contenido <span class="destacado">Principal</span></h2>
+        <p>Este es el contenido principal y único del documento.</p>
+
+        <!-- Contenido independiente y autónomo -->
+        <article>
+          <h3 title="TITULO">Título del Artículo</h3>
+          <div class="contenido-articulo">
+            <p>
+              Contenido del artículo. Este contenido es independiente y puede
+              ser comprendido fuera del contexto del sitio web.
+            </p>
+          </div>
+        </article>
+
+        <!-- Sección genérica de contenido relacionado -->
+        <div >
+          <section class="section">
+            <h3 id="servicios">Subtítulo de la Sección</h3>
+            <p>Contenido de la sección relacionado con el tema principal.</p>
+            <p>
+              <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>
+            </p>
+          </section>
+        </div>
+
+        <!-- Información tangencial al contenido principal -->
+        <aside>
+          <h3>Información Adicional</h3>
+          <p>
+            Esta es información <span class="nota">relacionada</span> pero
+            tangencial al contenido principal.
+          </p>
+        </aside>
+      </main>
+
+      <!-- Pie de página del documento o sección -->
+      <footer>
+        <p>
+          Derechos reservados © 2023.
+          <span class="nombre-empresa">Nombre de la Compañía</span>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

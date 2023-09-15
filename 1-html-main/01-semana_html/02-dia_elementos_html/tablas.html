@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Información sobre Tablas en HTML</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 80%;
+      }
+      th,
+      td {
+        border: 2px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- <caption>Titulo de la tabla HTML</caption> -->
+      
+      <thead>
+        <!-- COLUMNAS -->
+        <tr>
+          <th style="text-align: center;">Concepto</th>
+          <th style="text-align: center;">Descripción</th>
+          <th style="text-align: center;">Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- FILAS -->
+        <tr>
+          <td>Creación de tablas</td>
+          <td>
+            Las tablas en HTML se crean usando el elemento
+            <code>&lt;table&gt;</code>. Son útiles para representar datos en
+            formato de cuadrícula.
+          </td>
+          <td style="text-align: center;">900</td>
+        </tr>
+        <tr>
+          <td>Importancia de no usarlas para maquetar</td>
+          <td>
+            Antiguamente, las tablas se usaban para maquetar páginas web. Sin
+            embargo, esto es considerado una mala práctica hoy en día. Las hojas
+            de estilo CSS ofrecen herramientas más flexibles y semánticas para
+            el diseño y maquetación.
+          </td>
+          <td style="text-align: center;">1200</td>
+        </tr>
+        <tr>
+          <td>Uso de Colspan y Rowspan</td>
+          <td>
+            <code>colspan</code> y <code>rowspan</code> son atributos que
+            permiten que una celda ocupe varias columnas o filas,
+            respectivamente. Son útiles para combinar celdas y crear tablas más
+            complejas.
+          </td>
+          <td style="text-align: center;">100</td>
+        </tr>
+        <tr>
+          <td>Elementos semánticos en tablas</td>
+          <td>
+            Las tablas tienen varios elementos semánticos, incluyendo:
+            <ul>
+              <li>
+                <code>&lt;thead&gt;</code>: Representa el encabezado de la
+                tabla.
+              </li>
+              <li>
+                <code>&lt;tbody&gt;</code>: Representa el cuerpo principal de la
+                tabla.
+              </li>
+              <li>
+                <code>&lt;tfoot&gt;</code>: Representa el pie de la tabla
+                (aunque se define antes que <code>&lt;tbody&gt;</code> en el
+                código, se muestra al final).
+              </li>
+              <li><code>&lt;tr&gt;</code>: Representa una fila.</li>
+              <li>
+                <code>&lt;th&gt;</code>: Representa una celda de encabezado.
+              </li>
+              <li><code>&lt;td&gt;</code>: Representa una celda de datos.</li>
+            </ul>
+          </td>
+          <td style="text-align: center;">790</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="3" style="text-align: center;">Total de items: 0000</td>
+        </tr>
+    </tfoot>
+
+
+    </table>
+  </body>
+</html>

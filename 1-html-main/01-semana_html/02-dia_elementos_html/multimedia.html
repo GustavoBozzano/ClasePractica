@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplos de Multimedia e Iframes</title>
+    <style>
+      iframe {
+        width: 50%;
+        height: 615px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Audio</h2>
+    <audio controls>
+      <source src="/beat.mp3" type="audio/mpeg" />
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    
+
+    <h2>Video</h2>
+    <video width="320" height="240" controls loop>
+      <source src="/launch2.mp4" type="video/mp4" />
+      Tu navegador no soporta el elemento de video.
+    </video>
+
+    <h2>Iframe</h2>
+    <p>Un ejemplo de un iframe que muestra una página web:</p>
+    <iframe src="https://www.ejemplo.com"></iframe>
+
+    <h2>Incrustar contenido de YouTube</h2>
+    <p>
+      Para incrustar un video de YouTube, simplemente copia el código de
+      incrustación que YouTube proporciona y pégalo en tu documento HTML:
+    </p>
+    <iframe
+      src="https://www.youtube.com/embed/ZiP1l7jlIIA"
+      allowfullscreen
+    ></iframe>
+
+    <h2>Incrustar contenido de otros sitios</h2>
+    <p>
+      La mayoría de los sitios que ofrecen contenido incrustable proporcionarán
+      un código similar al de YouTube. Aquí hay un ejemplo genérico:
+    </p>
+    
+    <iframe src="https://www.dacast.com/es/blog-es/7-soluciones-de-transmision-en-vivo-para-eventos-privados/"></iframe>
+    <iframe src="https://www.dacast.com/es/blog-es/7-soluciones-de-transmision-en-vivo-para-eventos-privados/"></iframe>
+
+  </body>
+</html>
