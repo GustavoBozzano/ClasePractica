@@ -1,48 +1,72 @@
 <!-- COMENTARIOS -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web de Gusty..!!!</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Diferentes modos de Títulos-->
     <h1 id="Origen">Super asombroso sitio Web</h1>
-    <H2>Made in Gus</H2>
+    <h2>Made in Gus</h2>
     <h3>Hasta aquí</h3>
 
     <!-- Manera de colocar un Parrafo-->
-    <p> esto puede ser un parrafo bieeeeeen laaaaaaargo</p>
+    <p>esto puede ser un parrafo bieeeeeen laaaaaaargo</p>
 
     <!-- BOTONES: se le puede asignar una acción-->
     <button>PRESIONA AQUI</button>
 
     <!-- Modo de insertar imagenes-->
-    <img src="/20180815_174958.jpg" alt="esta foto es mia">
- 
-    <!-- Asignar un destino a un texto al hacer click-->   
+    <img src="/20180815_174958.jpg" alt="esta foto es mia" />
+
+    <!-- Asignar un destino a un texto al hacer click-->
     <a href="#Origen">Ir al principio</a>
     <p>
-        <em> Cursiva</em>
+      <em> Cursiva</em>
     </p>
     <p>
-        <em>
-            <strong> Cursiva Negrita</strong>
-        </em>
+      <em>
+        <strong> Cursiva Negrita</strong>
+      </em>
     </p>
-    <span style="color:darkgoldenrod;"> y así se coloca un span del color que se elija</span>
+    <span style="color: darkgoldenrod">
+      y así se coloca un span del color que se elija</span
+    >
 
     <p>
-        <a href="https://developer.mozilla.org/es/docs/Web/HTML/Attributes" target="_blank">Referencia Atributos HTML</a>
+      <a
+        href="https://developer.mozilla.org/es/docs/Web/HTML/Attributes"
+        target="_blank"
+        >Referencia Atributos HTML</a
+      >
     </p>
     <dl>
-        <dt>prueba 1</dt>
-        <dd>muestro 1</dd>
-        <dd>muestro 2</dd>
+      <dt>prueba 1</dt>
+      <dd>muestro 1</dd>
+      <dd>muestro 2</dd>
     </dl>
     <!-- se agrega un coment para verificar modificacion -->
-        <!-- se agrega un coment para verificar modificacion -->
+    <!-- se agrega un coment para verificar modificacion -->
 
-</body>
+    <main>
+      <h1>Formulario de Login</h1>
+
+      <!-- Crea aquí el formulario -->
+      <fieldset>
+        <legend>Login</legend>
+
+        <ul>
+          <li><label for="Email">Email:</label>
+            <input type="email" name="email" id="Email" required/></li>
+        
+          <li><label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña" required></li>
+        </ul>
+        <button type="reset">Limpiar</button>
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </main>
+  </body>
 </html>
