@@ -1,0 +1,75 @@
+/* APLICA A TODO EL DOCUMENTO */
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Assistant", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 2rem;
+  gap: 1rem;
+  background-color: black;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+}
+
+body main {
+  display: flex;
+  gap: 2rem;
+}
+
+/* APLICA A LA PRIMER SECTION */
+
+body main section:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+img {
+  max-width: 100%;
+  width: 120px;
+  aspect-ratio: 1/ 1;
+  border-radius: 50%;
+  border: 0.5rem solid black;
+  object-fit: cover;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: end;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+/* APLICA A LA PRIMER SECTION */
+
+body main section:nth-child(2) {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+body main section > button {
+  width: 100px;
+  background-color: #30a9d9;
+  border: none;
+  padding: 0.3rem;
+}
+button > a {
+  text-decoration: none;
+  color: white;
+}
+
+body main section:last-child {
+}
