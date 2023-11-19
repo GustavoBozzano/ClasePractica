@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: "Candy Crush", sans-serif;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 10rem 2rem 1fr 2rem;

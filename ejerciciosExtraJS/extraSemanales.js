@@ -45,23 +45,27 @@ if (lanzamiento > 0.5) {
 }
 //***********************************************************************************/
 // Semana01Ej07 //
-const edad = 46;
-const peso = "62kg";
-console.log(
-  `La persona en cuestión tiene ${edad} años, y su peso actual es: ${peso}`
-);
+// const edad = prompt("ingrese su edad:");
+// const peso = prompt("ingrese su peso en KG:");
+// console.log(
+//   `La persona en cuestión tiene ${edad} años, y su peso actual es: ${peso}`
+// );
 //***********************************************************************************/
 // Semana01Ej08 //
-function division(x, y) {
-  if (x > y) {
-    let resultado = x / y;
-    console.log(`El resultado es: ${resultado}`);
-  } else {
-    let resultado = y / x;
-    console.log(`E resultado es: ${resultado}`);
-  }
-}
-division(200, 40);
+// const x = prompt("ingrese un valor:");
+// let x1 = parseInt(x);
+// const y = prompt("ingrese otro valor: ");
+// let y1 = parseInt(y);
+// function division(x, y) {
+//   if (x1 > y1) {
+//     let resultado = x1 / y1;
+//     console.log(`El resultado es: ${resultado}`);
+//   } else {
+//     let resultado = y1 / x1;
+//     console.log(`E resultado es: ${resultado}`);
+//   }
+// }
+// division();
 //***********************************************************************************/
 // Semana01Ej09 //
 function mayor(x, y, z) {
@@ -91,3 +95,10 @@ function imprimirFecha(d, m, a) {
 imprimirFecha(21, 2, 1977);
 //***********************************************************************************/
 // Semana01Ej11 //
+// const a = prompt("Ingrese su edad por favor:");
+// const age = parseInt(a);
+// const validarEdad = () => {
+//   return age < 18 ? "No puedes votar, eres menor" : "Puedes votar, eres mayor";
+// };
+
+// console.log(validarEdad());
